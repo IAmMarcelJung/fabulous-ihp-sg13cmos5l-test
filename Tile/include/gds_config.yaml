@@ -82,3 +82,23 @@ pdk::ihp-sg13g2:
   PDN_HSPACING: 4.0
   PDN_HPITCH: 75.6
   PDN_HOFFSET: 13.57
+pdk::ihp-sg13cmos5l:
+  #Floor planning
+  IO_PIN_H_LAYER: "Metal3"
+  IO_PIN_V_LAYER: "Metal2"
+
+  # Routing
+  RT_MAX_LAYER: Metal4
+
+  DIODE_CELL: "sg13cmos5l_antennanp/A"
+
+  # PDN
+  PDN_VWIDTH: 2.2
+  PDN_VSPACING: 4.0
+  PDN_VPITCH: 75.6
+  PDN_VOFFSET: 13.6
+
+  PDN_HWIDTH: 2.0
+  PDN_HSPACING: 4.0
+  PDN_HPITCH: 75.6
+  PDN_HOFFSET: 13.57
