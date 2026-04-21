@@ -1,0 +1,4 @@
+macro/
+build/
+eFPGA_geometry.csv
+.FABulous/.fabulous_history
